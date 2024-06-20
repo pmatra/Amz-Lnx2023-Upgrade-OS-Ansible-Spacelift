@@ -1,0 +1,6 @@
+---
+plugin: amazon.aws.aws_ec2
+regions:
+  - us-east-2
+hostnames:
+  -172.31.22.9
