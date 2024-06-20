@@ -3,10 +3,8 @@
   become: true
   become_user: root
   tasks:
-    - name: Upgrade all packages
-      ansible.builtin.dnf:
-      name: "*"
-      state: latest
+    - name: upgrade all packages
+      yum: name=* state=latest
 
     - name: Unconditionally reboot the machine with all defaults
       ansible.builtin.reboot:
