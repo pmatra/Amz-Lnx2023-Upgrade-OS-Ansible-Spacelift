@@ -4,4 +4,4 @@ regions:
   - us-east-2
 include_filters:
   - tag:Name:
-      - 'ddb-proxy'
+      - 'Foundry'
